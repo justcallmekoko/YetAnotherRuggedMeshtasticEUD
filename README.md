@@ -79,3 +79,45 @@ A huge thanks to anvlmedia. This build is based off of his initial design for a 
 - Connect a GPS antenna to the SMA connector labeled `G`
 - Connect a LoRa antenna to the SMA connector labeled `L`
 - Use the side grid panel for indentification markings
+
+## Extra Printed Components
+- There are extra files located in the "STL" folder if you wish to print your own light pipes and USB passthrough.
+  
+  <a href="https://github.com/workshop35/YARM_EUD_stuff/blob/06f0664fd07bfb7e5f15abcb8ad2165e72d469b8/Mechanical/STLs/mainBodyEdit.3mf">Case</a>
+  
+  <a href="https://github.com/workshop35/YARM_EUD_stuff/blob/06f0664fd07bfb7e5f15abcb8ad2165e72d469b8/Mechanical/STLs/usbPassthrough.3mf">USB Passthrough</a>
+
+  <a href="https://github.com/workshop35/YARM_EUD_stuff/blob/0d7214ca557dbc08e7389d28ac9c6c2bc0039537/Mechanical/STLs/usbNut.3mf">Nut</a>
+  
+  <a href="https://github.com/workshop35/YARM_EUD_stuff/blob/06f0664fd07bfb7e5f15abcb8ad2165e72d469b8/Mechanical/STLs/usbCap.3mf">Dust Cap</a>
+  
+  <a href="https://github.com/workshop35/YARM_EUD_stuff/blob/06f0664fd07bfb7e5f15abcb8ad2165e72d469b8/Mechanical/STLs/capLanyard.3mf">Cap Lanyard</a>
+
+  <a href="https://github.com/workshop35/YARM_EUD_stuff/blob/0d7214ca557dbc08e7389d28ac9c6c2bc0039537/Mechanical/STLs/lightPipe.3mf">Light Pipe</a>
+
+- Extra Purchase
+  [USB-C Breakout Boards](https://a.co/d/73ktVuH)
+
+   https://github.com/user-attachments/assets/33cab01c-ab12-4689-82cd-6a3599bcc097
+
+
+- The case is modified to remove the lanyard opening, the antenna mounting flange thickness is reduced, the the USB passthrough opening was altered.
+  <p align="left"><img alt="Case" src="https://github.com/workshop35/YARM_EUD_stuff/blob/28bed2836d53fdf2c32b75fd225b185d3f1ab35f/images/caseEdit.png" width="500"></p>
+  
+- The lightpipe is printed in clear PETG. **The "Arachne" wall generator was used in OrcaSlicer.** Insert a pipe into each opening and fix with an adhesive.
+  <p align="left"><img alt="Light Pipe" src="https://github.com/workshop35/YARM_EUD_stuff/blob/28bed2836d53fdf2c32b75fd225b185d3f1ab35f/images/petgLightPipe.png" width="500"></p>
+
+- The USB passthrough is four parts: USB-C holder, retention nut, cap, and lanyard. The lanyard was printed in TPU.
+  <p align="left"><img alt="Components" src="https://github.com/workshop35/YARM_EUD_stuff/blob/28bed2836d53fdf2c32b75fd225b185d3f1ab35f/images/usbPassthrough.png" width="500"></p>
+
+- Press-fit the female USB breakout board into the holder. This is a very tight fit and may require adjustments to the print depending on your printer.
+  <p align="left"><img alt="USB Pressed-In" src="https://github.com/workshop35/YARM_EUD_stuff/blob/1ecce05b40116ae93a889a9c6f5ca5a717c85e53/images/usb_pressed.jpg" width="500"></p>
+
+- Cut roughly two inches of a four-conductor ribbon cable (four individual wires also work). Solder one end to the female USB breakout in the holder from the previous step. Solder the other to a male USB breakout. The connections are straight through without crossover. Use 3/8" or equivalent shrink tube to insulate the connections.
+   <p align="left"><img alt="USB Cable" src="https://github.com/workshop35/YARM_EUD_stuff/blob/afdc7702d2fe8f17967b4ad596d43a6f0784559c/images/usb_cable_complete.jpg" width="500"></p>
+
+- Install the male end of the cable into the RAK19007 board. You may have to loosen the board for it to fit. **This will not fit into the original case, you must use the modified version linked above**.
+  <p align="left"><img alt="Cable Install" src="https://github.com/workshop35/YARM_EUD_stuff/blob/afdc7702d2fe8f17967b4ad596d43a6f0784559c/images/usb_installed.jpg" width="500"></p>
+
+- Verify functionality by connecting a USB power source.
+  <p align="left"><img alt="Ops Check" src="https://github.com/workshop35/YARM_EUD_stuff/blob/afdc7702d2fe8f17967b4ad596d43a6f0784559c/images/usb_charging.jpg" width="500"></p>  
